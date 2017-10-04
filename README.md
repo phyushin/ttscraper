@@ -20,6 +20,6 @@ For example, if the original save file was loading a file from DropBox, it'd dow
 
 Before re-deploying these resources to another server, you'd then simply replace all instances of `_TTSCRAPER_BASE_URL_` with the URL of the server you're uploading them to.
 
-Take the previous example, if you uploaded the resources directory to www.yourwebserver.com/tabletop/resources, the resource URL would now read: `http://www.yourwebserver.com/tabletop/resources/e201873a-6b2b-47df-9668-a0130510c2e7`
+Take the previous example, if you uploaded the resources directory to `http://www.yourwebserver.com/tabletop/resources`, the resource URL would now read: `http://www.yourwebserver.com/tabletop/resources/e201873a-6b2b-47df-9668-a0130510c2e7`
 
 After doing this, you can use the new save file to host the content from a new server.
